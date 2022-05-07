@@ -14,7 +14,7 @@ const Books=()=>{
     ];
     return (<>
         <h1>
-            <TableContainer style={{maxWidth:"70%",margin:"10px auto"}}>
+            <TableContainer style={{maxWidth:"70%",margin:"80px auto"}}>
                 <Table sx={{ minWidth: 650 }}>
                 <TableHead>
                     <TableRow style={{background:"orange"}}>

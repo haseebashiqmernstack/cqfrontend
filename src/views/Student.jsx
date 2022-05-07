@@ -26,7 +26,7 @@ import EditIcon from '@mui/icons-material/Edit';
 
 const Student=()=>{
     return (<>
-<div className='table-container' style={{maxWidth:'70%', margin:'10px auto'}}>
+<div className='table-container' style={{maxWidth:'70%', margin:'80px auto'}}>
      <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
