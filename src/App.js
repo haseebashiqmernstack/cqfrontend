@@ -9,6 +9,7 @@ import {
 import Books from './views/Books';
 import Student from './views/Student';
 import Navbar from './components/navbar/navbar';
+import BorrowBook from './views/BorrowBook';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Books/>}/>
             <Route exact path="/std" element={<Student/>} />
+            <Route exact path="/borrowbook" element={<BorrowBook/>} />
           </Routes>
         </Router>
     </div>
